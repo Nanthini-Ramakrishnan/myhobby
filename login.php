@@ -1,0 +1,21 @@
+<?php
+session_start();
+if(isset($_SESSION['username']))
+{
+    header("LOCATION:welcome.php");
+}
+if(isset($_POST['submit']))
+{
+    $username=$_POST['username'];
+    $password=$_POST['password'];
+    $value_login="nandy";
+    if(($username==$value_login)&&($password==$value_login))
+    {
+        $_SESSION['username']=$username;
+        header("Location:welcome.php");
+    }
+    else
+    {
+        echo "<script>alert('Invalid Login')</script>";
+    }
+}

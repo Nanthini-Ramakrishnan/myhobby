@@ -1,0 +1,149 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'lucida sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:paleturquoise;
+    border-bottom: 1px solid wheat;
+}
+
+.logo
+{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a
+{
+    line-height: 80px;
+    color: black;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    background: blueviolet;
+    border-radius: 10px;
+}
+
+section
+{
+    width: 100%;
+    height: 100vh;
+    background: url(drawing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.btn
+{
+    background-color: cornsilk;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue ;
+    width: 180px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid chocolate;
+    font-weight: bolder;
+    border-radius: 12px;
+    cursor: pointer;
+    border-bottom-width: 8px ;
+    margin: 50px;
+}
+
+.txt
+{
+    margin: 20px;
+    width: 100px;
+    border: 3px solid chocolate;
+    border-radius: 5px ;
+    padding: 10px;
+
+}
+
+.frm
+{
+    margin: 100px 20px 20px 20px;
+}
+
+
+.b
+{
+    background-color: greenyellow;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact
+{
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0 chocolate;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+}
+
+form{
+    margin: 35px;
+}
+
+.input
+{
+    width: 400px;
+    height: 40px;
+    margin:10px 0 0 40px;
+    padding-left: 10px;
+    border: 3px solid greenyellow;
+    outline: none;
+}
+
+.bttn
+{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    background-color: greenyellow;
+    border-bottom-width: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.tp
+{
+    padding-top: 200px;
+}
